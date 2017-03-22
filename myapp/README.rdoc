@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic blogger app, generated with rails g scaffold. I then implemented Devise with Facebook OAuth ontop of that. Feel free to use as a skeleton for any projects, just credit me please.
+Also note you will need a Facebook Developer account, and to create an app so that you have the app_id and app_secret. Put these in a /config/application.yml if using Figaro, or secrets.yml otherwisee.
+Put those two files on your .gitignore - sharing keys publicly is a no-no.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+=NEXT STEPS
+-Implement a logout button
+-Add CSS
