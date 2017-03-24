@@ -276,4 +276,6 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.secret_key = ENV['_FIGARO_AWS_SECRET_KEY']
+  config.secret_key_base = ENV['_FIGARO_secret_key_base']
+  config.secret_token = ENV['_FIGARO_secret_token']
 end
