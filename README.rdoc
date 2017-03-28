@@ -1,9 +1,9 @@
 == README
 
-This is a basic blogger app, generated with rails g scaffold. I then implemented Devise with Facebook OAuth ontop of that. Feel free to use as a skeleton for any projects, just credit me please.
-Also note you will need a Facebook Developer account, and to create an app so that you have the app_id and app_secret. Put these in a /config/application.yml if using Figaro, or secrets.yml otherwisee.
-Put those two files on your .gitignore - sharing keys publicly is a no-no.
+This is a basic blogger app, generated with rails g scaffold.
+I then implemented Devise with Facebook OAuth on top of that. Afterwards, I deployed to AWS Elastic Beanstalk.
 
 =NEXT STEPS
 -Implement a logout button
 -Add CSS
+-Add HTTPS & re-deploy to Elastic Beanstalk.
